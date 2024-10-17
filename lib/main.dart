@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lab1/pages/dashboard.dart';
+import 'package:lab1/pages/mapclass.dart';
 
 
 void main() {
@@ -19,7 +20,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const dashboardPage(),
+      // home: const dashboardPage(),
+      home: MapSample(),
     );
   }
 }
